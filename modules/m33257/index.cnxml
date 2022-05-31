@@ -1,0 +1,69 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+    <title>SCORM 2.0:  Setting the Boundaries</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33257</md:content-id>
+  <md:title>SCORM 2.0:  Setting the Boundaries</md:title>
+  <md:abstract>This module discusses the boundaries that apply to SCORM in terms of its functionality. This module is part of the SCORM 2.0 collection and was originally written as a section of the document titled SCORM 2.0: Learning in the Mainstream.</md:abstract>
+  <md:uuid>71958deb-7654-4643-ad1c-b028ca35e6d2</md:uuid>
+</metadata>
+    <content>
+        <section id="mid-001">
+            <title>SCORM 2.0:  Setting the Boundaries</title>
+        <para id="imp-id1165210983009">At a conceptual level the role of SCORM is to provide:</para>
+        <list id="imp-id1165218719253">
+            <item>a way to aggregate content in a structured manner and make it available to a user
+                in a way that is intended to assist them developing actionable knowledge;</item>
+            <item>support for the high-level functionalities<footnote id="imp-id1165217255010">The high-level functionalities
+                    are defined in SCORM 2004 3rd Edition Overview Section 1.2.1. They are defined
+                    as Accessibility, Adaptability, Affordability, Durability, Interoperability and
+                    Reusability and are often referred to as the “ilities”.</footnote>; and,</item>
+            <item>support for rule-based sequencing of content. (LETSI states that this
+                functionality may not be present in the first version of SCORM 2.0.)</item>
+        </list>
+        <para id="imp-id1165216798304">It may be argued that support for data exchange with related systems in learning
+            infrastructures should be better supported. This would include support for integration
+            with a range of repositories for competency data, ePortfolios, learner profiles etc. The
+            exchange and useful consumption of what is essentially metadata from these types of
+            repositories is likely to be an important issue for holistic, service-orientated
+            infrastructures. Not all of these data interchange requirements sit entirely within the
+            role of SCORM, however, appropriate support will be critical to success.</para>
+        <para id="imp-id1165220125524">Highly regulated views of training are evident in the requirements expressed by
+            defense, aerospace, medical and pharmaceutical industries, food safety, workplace safety
+            and a variety of others. In terms of the diversity of learning, education and training,
+            these requirements may be seen to sit at one end of a spectrum where activities are
+            tightly controlled and highly regulated. The following are a small set of examples of
+            perspectives across these different industry sectors:</para>
+        <list id="imp-id5433327" list-type="enumerated" number-style="lower-alpha"><item>MedBiquitous requirements for the health sector (see <link url="http://www.medbiq.com/events/other/Phin_MedBiqMay2004.ppt">slides</link>);</item>
+            <item>Compliance Training in the Banking Sector (see <link window="new" url="http://www.banktech.com/news/showArticle.jhtml?articleID=29100850">article</link>); and,</item>
+            <item>an elaboration of training requirements (see <link window="new" url="http://www.ntis.gov.au/default.aspx?/trainingpackage/BSB01/unit/BSBCOM403A">example</link>).</item>
+        </list>
+        <para id="imp-id1165217871531">By contrast, some parts of the education sector and those involved in the recognition
+            of informal learning are often more interested in more open and less controlled
+            approaches to learning. David Wiley presents an <link window="new" url="http://opencontent.org/presentations/bcnet07/">open education view</link> that
+            argues the lack of utility and difficulty in adopting SCORM in [higher education]
+            learning. It is worth considering what this means for the boundaries and role of
+            SCORM.</para>
+        <para id="imp-id1165211314232">There is growing emphasis on the possibilities whereby learners establish some type of
+            Personal Learning Environment or “PLE” (eg <link window="new" url="http://www.open.ac.uk/blogs/socialearn/index.php">SocialLearn at the Open
+                University UK</link>). It is possible to actually create various types of mashups
+            that provide a single interface to a PLE, however, this is not within the technical
+            confidence levels of the average user. If PLE’s persist and evolve they are likely to
+            become simpler for the average user to create and more standards driven. There is no
+            apparent reason why SCORM should be ‘the’ standard for such mashups, however, there is
+            likely to be considerable value with higher levels of interoperability, reusability and
+            device-independence of the content available for such mashups.</para>
+        <para id="imp-id1165217010224">Given these basic perspectives, SCORM should continue to be concerned with the
+            ‘ilities’, however, within the context of a broader suite of applications that offer
+            functionality designed to support learning rather than just LMSs. It is also important
+            to consider a broader definition of reuse where learning content is liberated from
+            purpose-built LET technologies alone in favour of being mainstreamed within
+            organizations. Rather than being treated as a separate body of content locked away in
+            applications unable to participate in ‘single source publishing’ models the content is
+            liberated for reuse according to need. Within the context of this overall shift, it is
+            probably worth revisiting the ”high-level functionalities” to be supported by SCORM and
+            determine whether adding new content-based functionalities is also appropriate (eg
+            sustainability, scalability, composability, ‘syndicatability’).</para>
+        </section>
+    </content>
+</document>

@@ -1,0 +1,17 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+    <title>SCORM 2.0: Existing Implementations or Prototypes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33339</md:content-id>
+  <md:title>SCORM 2.0: Existing Implementations or Prototypes</md:title>
+  <md:abstract>This module briefly discusses early stage work that is related to the SCORM 2.0 Proposed Solution.  It was written as a section of an original document titled, SCORM 2.0: Learning in the Mainstream and was submitted to LETSI for consideration in their SCORM 2.0 project and the SCORM 2.0 Workshop in Pensacola, Florida in October 2008.</md:abstract>
+  <md:uuid>7c54eb7f-ee7a-4585-89e1-790ad997a939</md:uuid>
+</metadata>
+<content>
+        <section id="mid-001">
+            <title>SCORM 2.0: Existing Implementations or Prototypes</title>
+            <para id="mid-002">As stated in the Use Case section of this paper, the core proposition is to shift from the existing approach where learning content is somewhat isolated from other organizational content and generally locked away in special purpose applications to a model where learning content is brought back into the mainstream in the context of a single source publishing model.  There are many examples of the technical writing community moving towards single sourcing and the trend is growing.</para>
+            <para id="mid-003">During the past 18 months the DITA Learning and Training Content Specialization Subcommittee (DITA L&amp;T SC) has been progressing towards a set of deliverables to be incorporated into the release of DITA 1.2 which is due in the next few months.  Progress in this area has now allowed some activity to include the specialized requirements of learning content to be included into single sourcing approaches.  Prototypes of this work are being undertaken by members of the DITA L&amp;T SC.</para>
+        </section>
+    </content>
+    
+</document>

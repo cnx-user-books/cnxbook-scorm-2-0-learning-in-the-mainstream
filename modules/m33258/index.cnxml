@@ -1,0 +1,331 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+    <title>SCORM 2.0: Problem Scope</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33258</md:content-id>
+  <md:title>SCORM 2.0: Problem Scope</md:title>
+  <md:abstract>This module discusses the scope that should be addressed by SCORM 2.0.  This module was originally created as a section of the SCORM 2.0: Learning in the Mainstream paper submitted to LETSI prior to the SCORM 2 Workshop in Pensacola, Florida in October 2008.</md:abstract>
+  <md:uuid>8df3f8e8-dde0-48b0-80d9-7277c8a58e2f</md:uuid>
+</metadata>
+<content>
+        <section id="mid-001">
+            <title>SCORM 2.0: Problem Scope</title>
+        <para id="imp-id1163715702751">In the following sections a number of key issues are highlighted and their
+            requirements elaborated. At the outset, and for context, the following perspective is a
+            guiding principle in what is presented. SCORM has always been an educational technology
+            standard that has sought to remain agnostic to pedagogy (after all, its focus is upon
+            content). While additional support may be possible for good practice, SCORM should
+            remain agnostic to pedagogy and andragogy and should not enforce any particular approach
+            to the access of content for the purposes of supporting learning. Individuals and
+            organizations should remain free to choose the optimal learning, education or training
+            approach(es).</para>
+        <para id="imp-id1163715697874">The following are the main components upon which this paper will focus prior to
+            proposing a solution: (a) True Interoperability, (b) Reusability in an organization-wide
+            context, (c) The need for a structured content model, (d) Implications of
+            service-orientated approaches, (e) Granularity, aggregation, independence and rendering,
+            (f) Smooth transition between current and future SCORM, (g) Accommodation of new
+            approaches to LET, (h) Metadata, CORDRA and syndication, and (i) Cross-domain
+            scripting.</para>
+        <list id="imp-id1163717007983" list-type="enumerated" number-style="lower-alpha" start-value="1">
+            <item>True Interoperability <para id="imp-id1163717637642">The level of interoperability that is most frequently
+                    available in SCORM 1.x (especially 1.3.x or SCORM 2004) may best be described as
+                    partial interoperability. Many vendors have sought to make the creation of SCORM
+                    2004 content simpler for course developers. As a result, achieving adaptability
+                    and interoperability at the same time is not normally possible without being
+                    limited to the tools of a single vendor for assembly, maintenance and
+                    adaptation. This is due to the use of wizard-like authoring/assembly tools that
+                    add proprietary scripts for aspects of sequencing and navigation. While it has
+                    been important for vendors to simplify the course development process, there has
+                    been a negative impact on interoperability.</para>
+                <para id="imp-id1163715691542">For the most part, it is possible to upload packaged SCORM-conformant courses
+                    into a SCORM conformant LMS and run the course. The course will launch and
+                    exchange data with the LMS as required. If, however, there is a desire to adapt
+                    the course, then this must generally be done using the same tools with which
+                    that course was originally created. In the case of ‘true interoperability’ it
+                    should be possible for content to be both interoperable at the level where
+                    courses are consumed ‘as is’ by LMS-type applications and yet are also adaptable
+                    by tools other than those used in the original creation. It should be possible
+                    to change the most granular parts of a course, reorganize the content, alter the
+                    organizations within a course or change their sequence and sequencing rules in
+                    applications other than those in which the course was originally created.</para>
+                <para id="imp-id1163717219516"><emphasis effect="bold">True interoperability should be an objective of SCORM
+                        2.0.</emphasis></para>
+            </item>
+            <item>Reusability in an organization-wide context <para id="imp-id1163715652258">Originally SCORM (and the
+                    specifications from which it was constituted) was focused on the ability to
+                    exchange courses between LMSs. In that original time and context this was an
+                    entirely appropriate goal, and one that required significant effort to achieve.
+                    In the current context, however, there has been an increasing focus on the reuse
+                    of content beyond the domain of LET alone. Initiatives such as S1000D and SCORM
+                    alignment in the aerospace and military sectors have sought to bring content
+                    that was not originally training content into the training domain. Similar
+                    activities are evident from corporate sector under the banner of “Single
+                    Sourcing” or “Single Source Publishing”. (A useful paper by Jim Nugent is
+                    available <link window="new" url="http://www.hu.mtu.edu/~jdnugent/resources/WordStyles/img/Whitepaper.doc">here</link>.)</para>
+                <para id="imp-id1163719640429">One of the obstacles currently faced by online learning is that it has largely
+                    become divorced from the rest of the content in organizations. It requires
+                    different tools that create and deliver content that is often limited to the LET
+                    domain. Content that supports LET objectives should be useful more broadly
+                    across the organization in areas such as decision support, online help,
+                    marketing, print-based communications, mobile devices etc. It should also be
+                    possible to source LET content from other parts of an organization or its
+                    business partners.</para>
+                <para id="imp-id1163717049194">The notion of creating course aggregations from content other than content
+                    specifically created for or by LET applications (eg LMSs and/or authoring and
+                    assembly tools) has not been possible without significant effort, changes and
+                    duplication of content across organizations and/or their business partners.
+                    While there are both infrastructure and content issues at play, the inhibitors
+                    resulting from the current versions of SCORM should be removed or LET content
+                    and infrastructure will always be seen as an external ‘add-on’ to the core
+                    business.</para>
+                <para id="imp-id1163721617128"><emphasis effect="bold">Organization-wide reusability of content should be an
+                        objective of SCORM 2.0.</emphasis></para>
+            </item>
+            <item>The need for structured content<para id="imp-id1163717026950">SCORM has long been in need of a structured
+                    content approach that would support delivery of content to a variety of devices
+                    and applications without the need to provide such services outside the context
+                    of SCORM itself or in a proprietary manner. The inclusion of a structured
+                    content model within SCORM would also be a key factor in satisfying the
+                    objectives of (a) and (b) described above. In addition, a standard that involves
+                    a structured content model will better provide for both the current and future
+                    needs of LET communities and would be a key component of bringing the LET
+                    functions of an organization back into the mainstream.</para>
+                <para id="imp-id1163717498643">It is not likely to be worthwhile or timely to consider developing a new
+                    structured content model for SCORM. More importantly this would tend to impede
+                    progress towards the achievement of organization-wide reuse as described in (b).
+                    There are already a number of potentially suitable structured content standards
+                    and/or architectures that are likely to satisfy the requirements LET communities
+                    may have for learning content. Where existing standards are not able to fully
+                    satisfy the requirements, they may be adapted over time.</para>
+                <para id="imp-id1163717065024"><emphasis effect="bold">Incorporating a structured content model within SCORM
+                        should be an objective of SCORM 2.0.</emphasis></para>
+            </item>
+            <item>Implications of service-orientated approaches<para id="imp-id1163719091601">Service-orientated approaches
+                    fundamentally “change the game” in relation to content and metadata. Using
+                    multiple applications to provide a service-orientated approach for LET functions
+                    is characteristically different to that of using a single monolithic application
+                    (eg LMS or Course Management System). In a service-orientated approach a number
+                    of different, loosely-coupled applications provide functionality in the form of
+                    services that are exposed to the user through an appropriate interface. (The
+                    result of this approach would be a Service-orientated Architecture (SOA)). The
+                        <link window="new" url="http://www.e-framework.org">e-Framework
+                        project</link> continues to provide a wide range of resources to support
+                    this approach. During the design stage the range of services and supporting
+                    applications would be defined.</para>
+                <para id="imp-id1163717577228">Given the range of possibilities in this type of approach, it is increasingly
+                    likely that a larger number of applications would be involved in various aspects
+                    of the content lifecycle. This in itself forces change in the way we consider
+                    reusability and interoperability of content where the primary mode of access may
+                    or may not be a Learning Management System, and the purpose for access of that
+                    content may vary between performance support, decision support, online help,
+                    learning, education, training etc. In addition, if the issues raised in items
+                    (a), (b) and (c) are included, it would stand to reason that multiple
+                    applications (or services) may access the same content for different purposes
+                    and possibly, simultaneously. This model contains implications for: the
+                    granularity of content and how it is stored and managed; the purposes and levels
+                    of aggregation of content; and, the structure of the content. It should also be
+                    noted that the content may also be accessed from different devices that provide
+                    features related to mobility and accessibility (in the sense of W3C Web
+                    Accessibility).</para>
+                <para id="imp-id3785369">Within this context there should also be an awareness of the implications of
+                    distributing functions across services and applications, and ultimately their
+                    reliance on different types of content, data and metadata repositories. The
+                    metadata that describes a learner are more likely to be stored in dedicated but
+                    far more independent and possibly distributed repositories that can be accessed
+                    by multiple applications for a variety of inter-related purposes. Such uses may
+                    include, for example, metadata concerning competence, work history, course
+                    progress, career management (internal and perhaps external),
+                    accessibility/disability, etc. SOAs will tend to rely more heavily on
+                    distributed metadata that would assist the variety of applications within a
+                    system to control the ‘what and how’ of content access and rendering as well as
+                    improvements in the discovery and reuse. These requirements would imply a
+                    different type of focus on the exchange of data and metadata associated with
+                    content and users within a service-orientated infrastructure. Awareness and
+                    support for these approaches will be critical to the utility and successful
+                    implementation of the next generation of SCORM.</para>
+                <para id="imp-id1163715404729"><emphasis effect="bold">Accommodating the broad range of requirements
+                        resulting from service-oriented approaches should be an objective of SCORM
+                        2.0.</emphasis></para></item>
+            <item>Granularity, aggregation, independence and rendering<para id="imp-id1163717884801">Several of the previous
+                    sections have already suggested requirements for structured content, support for
+                    service-oriented approaches and the same content being accessed by a variety of
+                    different application types for different purposes, and that of ‘true
+                    interoperability’. This section will argue that the result of the previous
+                    sections requires us to think differently about granularity, aggregation,
+                    content independence and rendering (amongst other factors). If one accepts the
+                    utility of being able to reuse content across organizational boundaries and
+                    requirements (training, marketing, tech docs, EPSS etc) then it suggests that
+                    not only is it necessary to move towards a structured content model, but it is
+                    also necessary to be flexible in the way that granular content assets are
+                    combined to create a meaningful experience within a particular context. For
+                    example, one may wish to use some of the technical specifications of a product
+                    in marketing brochures or combine them different sequences or aggregations for
+                    training or within different courses, or provide access to the unique components
+                    for EPSS. </para>
+                <para id="imp-id7309731">These types of scenarios are by no means new (cf S1000D-SCORM alignment;
+                    single source publishing etc). Where these requirements exist it is common to
+                    use a structured content model so that authoring and aggregation are separated
+                    from processing and rendering thereby allowing for content transformation. A
+                    structured content architecture provides the flexibility to engage in a single
+                    sourcing approach.</para>
+                <para id="imp-id1163718625516">In approaches such as this, the range of uses and combinations of granular
+                    content is not necessarily known at the time of content authoring, therefore, it
+                    is also important to be able to work with different levels of aggregation as
+                    well as being able to create or edit aggregations for different purposes. An
+                    additional level of utility is achieved by enabling the linking of smaller
+                    aggregations of content to form larger aggregations of content. (An example
+                    would be reusing ‘Virtual Learning Objects’<footnote id="imp-id1163715991089">In 2005 the author coined
+                        the term Virtual Learning Object to describe the concept of creating dynamic
+                        links of granular content to a manifest file and then linking that manifest
+                        to a ‘parent’ manifest. In this approach the ‘child’ manifest may be used to
+                        describe the content of a learning object but because the content is linked
+                        and not packaged it becomes ‘virtualized’, hence it becomes a Virtual
+                        Learning Object.</footnote> across different courses or outside the context
+                    of any form of sequenced, course-based activity) Of course, logic and
+                    suitability will naturally apply some constraints on the extent to which content
+                    and aggregations are reused.</para>
+                <para id="imp-id8728020">On the one hand, the implication for content is in some ways no different than
+                    it always has been where reusability has been an objective. Content must be
+                    developed for reuse. On the other hand, there is an added dimension because the
+                    reuse context could be substantially different. This places a higher premium on
+                    the independence of content.</para>
+                <para id="imp-id1163715735924">The European Learning Industry Group (<link window="new" url="http://www.elig.org">ELIG</link>,), is recognized as the major EU
+                    association “representing the ecosystem for 21st century learning solutions”. It
+                    acts as the main consultation body for the European Commission concerning future
+                    learning industry trends. The Chair of ELIG, Fabrizio Cardinali, recently
+                    announced the establishment of new, dedicated work streams within ELIG to better
+                    focus and support the requirements of the European Publishing Industry in its
+                    move towards innovative technical, architectural and business solutions.
+                    According to Cardinali, “these ELIG work streams are intended to better support
+                    the increasing pressure from the users for open and flexible content, emulating
+                    what happened in the digital music publishing Industry in its turn towards
+                    single-tunes-based business models at the beginning of the millennium<footnote id="imp-id1163715679877">A
+                        dedicated workshop on “Digital Educational Content Marketplaces” (DECOM
+                        2008) has been announced by ELIG and will take place in Italy in October
+                        2008 (For details visit the <link window="new" url="http://www.decom2008.org/">DECOM 2008</link> site.)</footnote>.”
+                    Again, the suggestion of educational publishing to accommodate smaller
+                    aggregations of content rather than entire textbooks and the ability to reuse
+                    such content within the context of different educational activities also
+                    suggests a structured content model with new levels of support for granularity,
+                    aggregation, independence and rendering.</para>
+                <para id="imp-id1163715615829">The use of an appropriate structured content architecture can allow for all of
+                    the requirements described in this section as well as the ability to render the
+                    content in different ways for different uses, and indeed, different devices,
+                    applications etc.</para>
+                <para id="imp-id1163721675747"><emphasis effect="bold">The ability to aggregate structured content at
+                        different levels and transform or render that content according to the
+                        context of its use should be an objective of SCORM
+                2.0.</emphasis></para></item>
+            <item>Smooth transition between current and future SCORM<para id="imp-id1163715732105">Any change to SCORM will
+                    cause some measure of disruption throughout the cycles of both content and
+                    technology. It is important to soften the impact of such a change as much as
+                    reasonably possible. The extent to which disruption will occur and the ability
+                    to soften such impact is very much dependent upon the composition of SCORM
+                    2.0.</para>
+                <para id="imp-id8747295"><emphasis effect="bold">Taking reasonable steps to minimize the impact of
+                        changes to SCORM should be an objective of SCORM 2.0, however, future
+                        benefit should take priority.</emphasis></para></item>
+            <item>Accommodation of new approaches to LET (including instructional design
+                    objectives)<para id="imp-id1163715678679">At the beginning of this section it was stated that SCORM
+                    should remain pedagogy/andragogy neutral. The perspective in this section
+                    attempts to define a little more clearly that boundary between technology and
+                    support of good practice.</para>
+                <para id="imp-id1163715610129">In the past it may have been misinterpreted that being pedagogy neutral also
+                    meant that there was little or no work to be done in supporting ‘good practice’
+                    (good? better? best? different? appropriate? etc – pick all that apply...) in
+                    teaching and learning. An opposite view is proposed here. While SCORM should not
+                    dictate any particular pedagogical approach, it should, nonetheless, provide
+                    adequate support for a variety of pedagogical/andragogical approaches. At risk
+                    of this seeming to be an insurmountable task, some further comments on the role
+                    of SCORM in this approach will be provided. The key messages may be stated
+                    as:</para>
+                <list id="imp-id1163717233259" list-type="enumerated" number-style="lower-roman" start-value="1">
+                    <item>SCORM should provide useful structures to support different approaches to
+                        teaching and learning but not enforce any particular method.</item>
+                    <item>SCORM should not be seen as ‘elitist’. If the simplest and possibly
+                        mechanistic approaches to teaching and learning are all that an individual
+                        or organization can achieve, then they should not be precluded from
+                        capturing the broader benefits of standards-based content. Hopefully, over
+                        time and with improved tools it will be easier for more learning content to
+                        be developed in line with an appropriate definition of good practice.</item>
+                </list>
+                <para id="imp-id7248842">The LETSI <link window="new" url="http://www.letsi.org/letsi/display/TLSWG/TLSWG">Teaching and Learning
+                        Strategies Workgroup</link> has provided a thoughtful outline of the sort of
+                    practices and requirements that are likely to need support from SCORM 2.0. It
+                    seems likely that the efforts of that group will result in refinement of the
+                    existing requirements and the addition of new requirements as work progresses.
+                    Due to the scale of their task, it is unlikely that the work of that group will
+                    be ‘complete’ before the end of 2008 when a decision on the composition of SCORM
+                    as the base for the future is scheduled to be made. Even if their work was
+                    complete, that should be regarded as a temporary status. There will continue to
+                    be new approaches to andragogy and pedagogy that are both supported or
+                    challenged by technology. This should re-stimulate the question concerning the
+                    scope of SCORM.</para>
+                <para id="imp-id1163715829161">In the past SCORM has been about the aggregation and sequencing of [primarily]
+                    packaged courses and the ability to deploy them to multiple Learning Management
+                    Systems or Course Management Systems. The premise was that an LMS or CMS would
+                    provide all the functionality required for web-based course delivery. By
+                    contrast, many of those involved in Web 2.0 learning would question the value of
+                    an LMS or CMS for any of their requirements. In reality, these exist as the two
+                    opposite ends of a spectrum of requirements for the role of learning technology
+                    and standards supporting learning (including training).</para>
+                <para id="imp-id1163715735245">Possibly the biggest difference between the requirements of the past and those
+                    from now into the future from the technology side is that there is a far greater
+                    likelihood of a larger number of applications with very different functionality
+                    accessing [the same] content and metadata from a larger number of sources than
+                    in the older models. From the human stakeholder perspective we could draw upon
+                    Nigel Paine’s “5 Key Shifts” and say that while in some situations courses will
+                    continue to be delivered to an individual under tight control and primarily for
+                    the acquisition of skills, the shift is towards the creation of environments for
+                    the free-flow sharing of knowledge among communities to support changes in
+                    values and attitudes as well as the acquisition of actionable knowledge.</para>
+                <para id="imp-id1163719925022">SCORM should not be about method (ie how to facilitate learning), it should be
+                    about liberating content and making it available (existing or created as part of
+                    learning) to a broad set of applications so that any learning method may be
+                    supported.</para>
+                <para id="imp-id4271174">Currently we are sorting through the issues and challenges posed by
+                    requirements to support collaborative learning, social learning, Open Education
+                    Resources, discovery learning, adaptive content, immersive experiences,
+                    simulations and the impact of these challenges on learning content. In the
+                    future, a new set of challenges will emerge along with a new set of applications
+                    to support them. SCORM should both support and survive these challenges. Of
+                    course, the levels of success are dependent not only upon SCORM itself, but how
+                    it is implemented at both the application level and the system level.</para>
+                <para id="imp-id1163715734803"><emphasis effect="bold">Supporting the different ways for accessing, adapting
+                        or creating content in the context of new models for learning and training
+                        should be an objective for SCORM 2.0.</emphasis></para></item>
+            <item>Metadata, CORDRA and syndication<para id="imp-id8688814">While the IEEE LOM (LOM) metadata has become
+                    the default schema for describing learning content, it is also widely accepted
+                    that it is no longer adequate. Reliance on LOM alone would prove to be of very
+                    limited value in the context of enterprise-wide content reuse. Thinking about
+                    metadata has moved on considerably since the creation of LOM and it is now
+                    important to revisit metadata in the context of the issues presented here and
+                    those raised through the existing work on complimentary architectures such as
+                    the Content Object Repository Discovery and Registration/Resolution Architecture
+                    (CORDRA). In addition, it is important to consider that SCORM and CORDRA may
+                    also need to be aware of other types of related metadata (competencies,
+                    profiles, etc) and that these may need to be factored in to the overall
+                    design.</para>
+                <para id="imp-id8734693">While work on CORDRA has been undertaken at ADL with related agencies, content
+                    syndication using standards such as RSS has proliferated widely across the web.
+                    In some cases this is seen as an alternative to some CORDRA-like functions,
+                    however, it may be more useful to consider RSS as complimentary to CORDRA’s
+                    objectives. Enabling a comprehensive set of syndication functions related to
+                    learning content and repositories may also require some consideration of these
+                    needs within the composition of SCORM.</para>
+                <para id="imp-id1163717065290"><emphasis effect="bold">Revision of the approach and schemes used for metadata
+                        and support for content syndication should be an objective of SCORM
+                        2.0.</emphasis></para></item>
+            <item>Cross-domain scripting<para id="imp-id1163715653473">The cross-domain scripting issue has been a pain point
+                    in SCORM for anyone dynamically aggregating content from distributed
+                    repositories for delivery via SCORM conformant applications such as LMSs. A
+                    range of alternative approaches is possible and the need to find such
+                    alternatives increases as service-orientated approaches become more widely
+                    deployed within infrastructures to support learning activities. The problem
+                    needs to be resolved. (The content of this paper will not make any contribution
+                    to solving this issue.)</para>
+                <para id="imp-id3321239"><emphasis effect="bold">Solving the cross-domain scripting issue should be an
+                        objective of SCORM 2.0.</emphasis></para></item>
+        </list>
+        </section>
+    </content>
+</document>

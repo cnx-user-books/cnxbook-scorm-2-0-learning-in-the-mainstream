@@ -1,0 +1,27 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+    <title>SCORM 2.0: Conclusions and Acknowledgments</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33340</md:content-id>
+  <md:title>SCORM 2.0: Conclusions and Acknowledgments</md:title>
+  <md:abstract>This module summarises the content of the paper and the proposed solution.  It was written as a section of an original document titled, SCORM 2.0: Learning in the Mainstream and was submitted to LETSI for consideration in their SCORM 2.0 project and the SCORM 2.0 Workshop in Pensacola, Florida in October 2008.</md:abstract>
+  <md:uuid>9ab03853-e4dd-454c-a810-1bc40b8f8532</md:uuid>
+</metadata>
+<content>
+        <section id="mid-001">
+            <title>SCORM 2.0: Summary and Recommendations</title>
+            <para id="mid-002">The decision to move to a new generation of SCORM is timely and significant.  This paper is neutral to the issues that may have driven the decision to reconsider the composition of SCORM in terms of standards and specifications.  If a change is to be made, then let it be made in a way that will bring substantial new value to the broadest possible base of LET communities in a way that is manageable in terms of effort and change.  While SCORM has been very useful and has become regarded as the de facto standard for delivering interoperability, reusability, durability, adaptability, affordability and accessibility in learning content and technologies, a variety of issues that have affected the levels of success in relation to these high-level functionalities.  This paper has briefly described these issues and proposed the adoption of DITA as an approach that would contribute strongly to resolving the issues listed.</para>
+            <para id="mid-003">More importantly, it has been proposed that the ability to bring learning content into the mainstream of organizational content would contribute strongly to the work of learning, education and training communities and enable them to participate effectively in the trend towards single source publishing.  While the technical writing community have logically been leading the adoption of single sourcing, it is now time that the LET communities joined this trend and were able to both contribute to, and benefit from, this approach to content development.</para>
+            <para id="mid-004">The Educational Publishing Industry is being pressured by various initiatives to reduce costs of textbook materials and to find new business models, potentially similar to the music industry trend to tune-based sales.  It is likely, however, that the business models will need to be richer and flexible in different ways to those of the music industry.  IBM first developed DITA because it needed to move away from book-based content models.  The Educational Publishing Industry is already under similar pressure as a result of the emerging business challenges.  A more synergistic alignment between publisher content and other learning materials and delivery applications would provide significant benefit to all key stakeholders.  A common structured content format for SCORM and publisher content would add significant value to these objectives.</para>
+            <para id="mid-005">Finally, it is proposed that there is little to lose and a lot to gain from the adoption of DITA.  Simply moving to an alternative aggregation specification or standard will do little to assist the future requirements and evolution of SCORM.  Alternatively, moving to a standard that has both structured content and aggregation methods, supports single source publishing and the reuse of content across the enterprise, and in itself is already moving to support the requirements of learning, education and training is a move that holds many positive benefits for SCORM 2.0.</para>
+            <para id="mid-006">As a result the following recommendations are made:</para>
+            <list id="mid-007" list-type="enumerated" number-style="lower-roman">
+                <item>That appropriate members of the OASIS DITA Technical Committee be invited to demonstrate the extent to which DITA is currently able to support the requirements for SCORM 2.0 and what opportunities exist for DITA to accommodate the evolution of SCORM.</item>
+                <item>ii)	That LETSI develop requirements for and work with interested parties to develop a short term pilot project as a test case for the adoption of DITA as the structured content architecture for SCORM 2.0.</item>
+            </list>
+        </section>
+        <section id="mid-008">
+            <title>Acknowledgments</title>
+            <para id="mid-009">The author gratefully acknowledges Jon Mason of <link id="mid-010" window="new" url="http://www.intercog.net/">Intercog Pty Ltd</link> for his review and feedback, <link id="mid-011" window="new" url="http://www.giuntilabs.com/">Giunti Labs</link> for their review of this paper and provision of information regarding the EU and ELIG projects and Peter Meyer of <link id="mid-012" window="new" url="http://www.elkera.com.au/">Elkera Pty Ltd</link> for also taking the time to review the content.</para>
+        </section>
+    </content>
+    </document>

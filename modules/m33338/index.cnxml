@@ -1,0 +1,18 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+    <title>Integration and Technical Issues</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33338</md:content-id>
+  <md:title>Integration and Technical Issues</md:title>
+  <md:abstract>This module discusses some of the technical and integration issues related to a new approach to SCORM.  It was written as a section of an original document titled, SCORM 2.0: Learning in the Mainstream and was submitted to LETSI for consideration in their SCORM 2.0 project and the SCORM 2.0 Workshop in Pensacola, Florida in October 2008.</md:abstract>
+  <md:uuid>a3c49b6e-27ea-4575-8a27-143a76bd5d59</md:uuid>
+</metadata>
+<content>
+    <section id="mid-001">
+        <title>SCORM 2.0: Integration and Other Technical Issues</title>
+        <para id="mid-002">This proposal would not require integration as such.  Some development effort would be required to enable a DITA native approach within applications designed to support learning activities.  In the short term content can be dynamically transformed to be SCORM 2004 conformant and delivered through available applications.  The development effort to support DITA natively is not necessarily a significant impediment.  If SCORM were to continue with IMS Content Packaging as the aggregation format, vendors would ultimately be faced with migrating to CP 1.2 due to the improved value it provides through its manifest linking capability (ie the ability link to external, child manifests rather than incorporate them into the parent manifest).  The bug fixes for CP 1.2 are also important to implement.  This in itself means that there is a development requirement even if IMS CP remained within SCORM.  Given these factors, adopting DITA is considered to have substantially greater value.
+        </para>
+        <para id="mid-003">Another key consideration is that of vendor support for DITA.  There are a growing number of tools that have DITA versions or implementations.  Bob Doyle produced a review of these tools in April of 2008.  The review was published for the Society for Technical Communication and so it necessarily is written from the technical writers’ perspective, nonetheless, it provides a useful overview of both value and tools (The <link window="new" url="http://www.ditanews.com/tools/STC_Intercom.pdf">review</link> is available from the DITA News site.).  A simple web search retrieves a significant number of tools for authoring, storing and managing DITA content.</para>
+    </section>
+</content>
+    
+</document>

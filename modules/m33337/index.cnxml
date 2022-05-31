@@ -1,0 +1,191 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+    <title>SCORM 2.01 Experiment on OER</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33337</md:content-id>
+  <md:title>SCORM 2.01 Experiment on OER</md:title>
+  <md:abstract>This module discusses a proposed solution for SCORM 2.0 and its ability to satisfy a defined set of issues.  It was written as a section of an original document titled, SCORM 2.0: Learning in the Mainstream and was submitted to LETSI for consideration in their SCORM 2.0 project and the SCORM 2.0 Workshop in Pensacola, Florida in October 2008.</md:abstract>
+  <md:uuid>218ebd71-ebc9-4628-a064-61111607adee</md:uuid>
+</metadata>
+
+<content>
+        <section id="mid-001">
+        <title>SCORM 2.0: Proposed Solution</title>
+        <para id="mid-002">SCORM will never solve all the problems associated with learning, education or
+            training. As the acronym clearly states, it is primarily about the sharing of content
+            objects [in training and education – implied]. It has been argued in this paper that the
+            previous focus of SCORM, while appropriate for the time at which it was conceived, is
+            now too narrow and has suffered from some problems that cannot be resolved without an
+            approach that includes a structured content model together with flexible levels of
+            aggregation. (It should be noted that IMS Global has also moved to an approach that
+            enables levels of aggregation in the Content Packaging v1.2 specification.) Irrespective
+            of the structure and composition of the next generation of SCORM, there will continue to
+            be a requirement to allow flexibility in the implementation. That will always mean that
+            implementation choices will affect the levels of interoperability, reuse, adaptability
+            etc, however, hopefully less so in a new model than in the past.</para>
+        <para id="mid-003">The requirements and solutions proposed in this paper are not intended to be
+            comprehensive. This paper will not propose solutions to all of the issues raised within
+            the scoping section. More specifically, the scope of the proposal may be tabulated as
+            follows.</para>
+        <table id="A86E71D4585F4CE5A3DFAAB018361612" summary="This table has two colums and three rows.  It provides a high level evaluation of the potential for the proposal put forward in this paper to satisfy the criteria discussed in the 'Problem Scope' module. The table indicates that the proposed solution has the potential to satisfy the following criteria: (a) True Interoperability, (b) Reusability in an organization-wide context, (c) The need for a structured content model, (e) Granularity, aggregation, independence and rendering, and (f) Smooth transition between current and future SCORM.  It has potential to partially satisfy the criteria listed as: (d) Implications of service-orientated approaches, (g) Accommodation of new approaches to LET, and (h) Metadata, CORDRA and syndication. It has no potential to satisfy (i) Cross domain scripting.">
+            <title>Potential of the Proposed Solution to Satisfy the Scope Criteria</title>
+            <tgroup cols="2">
+                <colspec colnum="1" colname="c1"/>
+                <colspec colnum="2" colname="c2"/>
+                <thead>
+                    <row>
+                        <entry>Capability</entry>
+                        <entry>Scope Criteria</entry> </row>
+                </thead>
+                <tfoot id="mid-004">
+                    <row>
+                        <entry namest="c1" nameend="c2">*Subject also to implementation
+                            choices</entry>
+                    </row>
+                </tfoot>
+                <tbody>
+                    <row>
+                        <entry>Yes</entry>
+                        <entry>
+                            <list id="mid-005" list-type="enumerated" number-style="lower-roman"><item>True Interoperability</item>
+                                <item>Reusability in an organization-wide context</item>
+                                <item>The need for a structured content model</item>
+                                <item>Granularity, aggregation, independence and
+                                    rendering</item>
+                                <item>Smooth transition between current and future SCORM</item>
+                            </list></entry>
+                    </row>
+                    <row>
+                        <entry>Partial*</entry>
+                        <entry>
+                            <list id="mid-006" list-type="enumerated" number-style="lower-roman"><item>Implications of service-orientated approaches</item>
+                                <item>Accommodation of new approaches to LET</item>
+                                <item>Metadata, CORDRA and syndication</item>
+                            </list></entry>
+                    </row>
+                    <row>
+                        <entry>No</entry>
+                        <entry>
+<list id="mid-006a" list-type="enumerated" number-style="lower-roman"><item>Cross-domain scripting</item>
+                                <item>Server-side scripting</item>
+                            </list></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <para id="mid-007">The core of this proposal is to adopt an existing structured content model as part of
+            SCORM. This paper is neutral to the reasons for LETSI seeking to implement a new content
+            aggregation model for SCORM 2.0, rather it takes the approach that if this is necessary,
+            then replacing the aggregation model alone does not provide sufficient value to warrant
+            the effort or resulting impact across the LET communities, including vendors. LETSI’s
+            approach to gathering requirements tends to support this notion.</para>
+        <para id="mid-008">Given SCORM 2.0 deadlines published on the LETSI site, it is not feasible to develop a
+            new structured content and aggregation model for SCORM. This is also outside of the
+            stated scope of work of LETSI. On that basis, an existing structured content and
+            aggregation model needs to be selected for adoption. While several such standards exist,
+            they are mostly quite narrow and industry specific in their focus and do not provide
+            easy pathways for adoption into learning communities.</para>
+        <para id="mid-009">This paper proposes the Darwin Information Typing Architecture (DITA) as the standard
+            for adoption into SCORM 2.0 because of its ability to provide solutions for the scoping
+            issues (a), (b), (c), (e) and (f) together with its potential to provide partial or
+            substantial assistance for issues (d), (g) and (h) (see the above table).</para>
+        <para id="mid-010">While DITA was first developed and introduced into IBM in March 2001 within IBM
+            DeveloperWorks, the <link window="new" url="http://dita.xml.org/book/history-of-dita">History of DITA</link> traces the roots of the thinking behind DITA back to earlier
+            than 1960. The evolution in thinking is of interest, however, it is the expression of
+            that thinking in DITA as it was developed by IBM and then released to the Organization
+            for the Advancement of Structured Information Standards (<link window="new" url="http://www.oasis-open.org">OASIS</link>) that is more germane to this
+            paper.</para>
+        <para id="mid-011">There are two issues worth noting about DITA from the outset. First, that it is
+            conceptually similar (though not identical) to SCORM in that it focuses on the
+            development of granular content items (topics) that are aggregated for processing and
+            delivery to a consuming application. The aggregation model in DITA is richer than that
+            of the current SCORM. Second, that while DITA was originally developed to satisfy
+            technical writing requirements for technology products, it was always intended that
+            specializations would evolve from the DITA core and that this would provide for industry
+            or discipline specific variations. Provided the specializations are developed in a
+            conformant manner, they will remain compatible with the core of DITA and will be
+            processed successfully. The base structure of DITA provides a sort of safety net.
+            Suffice to say that there are constraints concerning the processing of specializations
+            but for the most part the system design performs very well. Currently, there are
+            specializations completed or under development for the semi-conductor industry, machine
+            industry, help documentation, enterprise business documents, translation and learning.
+            (See <link window="new" url="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita#subcommittees">DITA Subcommittees</link> for up-to-date details.)</para>
+        <para id="mid-012">In response to the issues outlined in the scoping section, DITA responds as
+            follows:</para>
+        <list id="mid-013" list-type="bulleted" bullet-style="none">
+            <item>a) True Interoperability <para id="mid-014">DITA’s structured content model allows for true
+                    interoperability to be achieved. This is partly due to the validation of the
+                    content structure and partly through the ability to transform content of known
+                    structure and is reliant upon conformance.</para>
+            </item>
+            <item> b) Reusability in an organization-wide context <para id="mid-015">DITA’s approach to
+                    specialization provides the ability to reuse content across organizational
+                    departments and functions. As with many standards, the implementation choices
+                    and content strategy have the potential to impact the realization of this
+                    objective.</para></item>
+            <item> c) The need for a structured content model <para id="mid-016">DITA is a standard for
+                    structured content.</para></item>
+            <item>e) Granularity, aggregation, independence and rendering <para id="mid-017">DITA is an XML
+                    application that enables content independence and dynamic rendering for single
+                    source publishing requirements. The approach to granularity and aggregation is
+                    very flexible and the separation of authoring and assembly from processing and
+                    delivery is also supportive of this objective.</para></item>
+            <item>f) Smooth transition between current and future SCORM <para id="mid-018">The development of the
+                        <link window="new" url="http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita-learningspec">DITA Learning Specialization</link> has a specific objective to provide
+                    processing support for SCORM 2004. This enables organizations to provide a soft
+                    transition from SCORM as it exists currently while providing the capability of
+                    moving to more advanced content development and single sourcing approaches. This
+                    will also ensure that content developers can shift to new and more desirable
+                    processes while vendors adjust to the new requirements of SCORM
+                2.0.</para></item>
+        </list>
+        <para id="mid-019">For those issues where this proposal is not intended to provide a complete solution,
+            DITA responds as follows:</para>
+        <list id="mid-020" list-type="bulleted" bullet-style="none">
+            <item> d) Implications of service-orientated approaches <para id="mid-021">A key factor in supporting
+                    this objective in the context of the issues outlined in this paper is that of
+                    storing and managing content in repositories (possibly multiple repositories)
+                    and then delivering that content to a variety of applications on demand. DITA is
+                    a structured content standard and so would allow for dynamic transformation
+                    according to the application requesting the content. DITA’s support for single
+                    source publishing provides useful support for service-orientated approaches. The
+                    complete solution would go beyond what DITA is able to provide and include
+                    repository and content management issues, authentication and authorization, etc
+                    which are issues beyond the scope of SCORM and this White Paper.</para></item>
+            <item> g) Accommodation of new approaches to LET <para id="mid-022">It is important to separate the
+                    content issues from those of instructional design, application functionality and
+                    a host of other issues that need to be resolved in order to provide holistic
+                    solutions for new approaches to learning, education and training. DITA can
+                    provide a single sourcing approach that allows a variety of different
+                    applications that contribute different functionality in response to these
+                    requirements to use/reuse common content for different learning approaches. This
+                    is only part of the solution that needs to be provided, however, would represent
+                    an advance on what has been available previously. The concept is that of
+                    providing stores of content that may be accessed through applications that offer
+                    the appropriate functionalities to support a desired approach to learning or
+                    training.</para></item>
+            <item> h) Metadata, CORDRA and syndication <para id="mid-023">DITA provides a useful and robust
+                    approach to metadata, however, there are idiosyncrasies that relate to the
+                    original design of DITA that would most likely require some modification. Some
+                    of these issues have already been raised in the DITA Technical Committee and
+                    would benefit from input from the learning communities if DITA were adopted
+                    within SCORM 2.0. Even in the short term, the ability to more easily provide a
+                    richer and more relevant metadata approach for learning content in DITA would
+                    deliver some immediate benefits. The DITA Learning Specialization already
+                    supports all of the IEEE LOM fields. An holistic approach to a content strategy
+                    together with metadata that is embedded (and later also associated) in the
+                    learning content would also better support automated extraction of metadata from
+                    the content and registration requirements within CORDRA federations and may
+                    contribute to enabling various forms of content syndication. Again, adoption of
+                    DITA is not a panacea for metadata issues. It would be assistive in the short
+                    term and with further participation from LET communities would be improved over
+                    time.</para></item>
+        </list>
+        <para id="mid-024">A complete model for SCORM 2.0 would require the inclusion of other standards and
+            approaches to complete the functionalities as determined by the final requirements set.
+            This proposal limits its approach to the content issues. There is nothing evident in
+            this approach that would result in problems associated with satisfaction of whatever
+            else SCORM 2.0 requires.</para>
+        </section>
+    </content>
+</document>

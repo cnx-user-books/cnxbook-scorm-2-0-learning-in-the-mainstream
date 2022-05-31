@@ -1,0 +1,35 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+    <title>Use Cases and Stakeholders</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m33336</md:content-id>
+  <md:title>Use Cases and Stakeholders</md:title>
+  <md:abstract>This module comments briefly on the Use Cases and Stakeholders of a possible next generation of SCORM.  It was written as a section of an original document titled, SCORM 2.0: Learning in the Mainstream and was submitted to LETSI for consideration in their SCORM 2.0 project and the SCORM 2.0 Workshop in Pensacola, Florida in October 2008.</md:abstract>
+  <md:uuid>6d21dda4-be3d-457e-96a4-b13249acde18</md:uuid>
+</metadata>
+<content>
+        <section id="mid-001">
+            <title>Use Cases</title>
+            <para id="mid-002">Due to the approach of this paper there is little value in attempting to provide a
+                range of use cases because it would be impractical to cover the entire spectrum of
+                what has been discussed. Aside from addressing specific issues in relation to
+                requirements for SCORM 2.0, the fundamental proposition of this paper is to advocate
+                that SCORM should enable participation in a single sourcing approach and thereby
+                assist in mainstreaming learning content, services and applications. Appendix 1
+                contains some relevant scenarios in support of the perspective of this paper.</para>
+        </section>
+        <section id="mid-003">
+            <title>Stakeholders</title>
+            <para id="mid-004">In the case of this Whitepaper the stakeholders may be stated as "those
+                communities interested and involved in the development of content and
+                infrastructures for learning, education and training".</para>
+            <para id="mid-005">This paper is a position paper that is focused on a 'solution architecture'
+                approach to designing a "next generation SCORM". LETSI is concerned with all
+                learning, education and training communities, and therefore, the stakeholders for a
+                new approach to high-level functionalities for learning technology infrastructure,
+                content and processes may be defined in equally broad terms.</para>
+        </section>
+
+    </content>
+
+</document>
